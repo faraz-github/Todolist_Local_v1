@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+
+
+body{
+    background-color: #24A19C;
+    font-family: 'Comfortaa', cursive;
+}
+
+.title{
+    color: #FAEEE7;
+}
+.subtitle{
+    color: #FAEEE7;
+}
+hr{
+    color: #FAEEE7;
+}
+
+.input-task{
+    background-color: #D96098;
+    border-color: #D96098;
+    color: #FAEEE7;
+}
+
+.input-task:focus{
+    background-color: #D96098;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #325288;
+}
+.input-task::placeholder{
+    color: #FAEEE7;
+}
+
+.add-button{
+    background-color: #325288;
+    color:#FAEEE7;
+    border: none;
+}
+
+.add-button:hover{
+    background-color: #FAEEE7;
+    color: #325288;
+    border: none;
+}
+
+.task-box{
+    border: none;
+}
+
+.task-item{
+    background-color: #325288;
+    color: #FAEEE7;
+    border: none
+}
+
+.two-button{
+    background-color: #FAEEE7;
+    color:#325288;
+    border: none;
+}
+.two-button:hover{
+    background-color: #325288;
+    color: #FAEEE7;
+    border: none;
+}
+
+.two-button:focus{
+    background-color: #325288;
+    color: #FAEEE7;
+    border: none;
+}
